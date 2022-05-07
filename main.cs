@@ -17,14 +17,14 @@ class Program
         // input
         Console.WriteLine("This program determines the type of triangle.");
         Console.WriteLine("Please input the lengths of the triangle");
-        
+
         Console.WriteLine("");
         Console.Write("Input the first length (cm): ");
         lengthOne = Convert.ToDouble(Console.ReadLine());
-        
+
         Console.Write("Input the second length (cm): ");
         lengthTwo = Convert.ToDouble(Console.ReadLine());
-        
+
         Console.Write("Input the third length (cm): ");
         lengthThree = Convert.ToDouble(Console.ReadLine());
 
@@ -32,7 +32,7 @@ class Program
         if ((lengthOne <= 0) || (lengthTwo <= 0) || (lengthThree <= 0))
         {
             Console.Clear();
-            Console.WriteLine("You can't have negative length! Please only input positive numbers.");
+            Console.WriteLine("You can't have negative length! Please input only positive numbers.");
         }
         else
         {
@@ -49,7 +49,7 @@ class Program
                 Console.WriteLine("It is a scalene triangle!");
             }
         }
-        
+
         Console.WriteLine("\nDone.");
     }
 }
