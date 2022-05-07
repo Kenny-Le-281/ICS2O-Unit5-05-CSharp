@@ -31,7 +31,7 @@ class Program
         // process and output
         if ((lengthOne <= 0) || (lengthTwo <= 0) || (lengthThree <= 0))
         {
-            Console.Clear();
+            Console.WriteLine("");
             Console.WriteLine("You can't have negative length! Please input only positive numbers.");
         }
         else
